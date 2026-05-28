@@ -25,8 +25,8 @@ The website allows users to explore products, search categories, add items to ca
 
 ### Frontend
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JavaScript
 
 ### Storage

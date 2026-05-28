@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Myntra Clone - Online Shopping Mall</title>
+<!-- Link to the CSS file -->
+<link href="myntra.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- ==========================================
+         HEADER / NAVIGATION
+         ========================================== -->
+<header>
+<div class="header-container">
+<!-- Brand Logo -->
+<div class="logo">
+<a href="#">
+<img alt="Myntra Logo" src="logo.png"/>
+</a>
+</div>
+<!-- Menu Navigation Links -->
+<nav class="navigation">
+<!-- MEN -->
+<div class="nav-link men">
+<a href="#">Men</a>
+<div class="dropdown-menu">
+<!-- Col 1: Topwear & Festive -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Topwear</h5>
+<ul>
+<li><a href="#">T-Shirts</a></li>
+<li><a href="#">Casual Shirts</a></li>
+<li><a href="#">Formal Shirts</a></li>
+<li><a href="#">Sweatshirts</a></li>
+<li><a href="#">Sweaters</a></li>
+<li><a href="#">Jackets</a></li>
+<li><a href="#">Blazers &amp; Coats</a></li>
+<li><a href="#">Suits</a></li>
+<li><a href="#">Rain Jackets</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Indian &amp; Festive Wear</h5>
+<ul>
+<li><a href="#">Kurtas &amp; Kurta Sets</a></li>
+<li><a href="#">Sherwanis</a></li>
+<li><a href="#">Nehru Jackets</a></li>
+<li><a href="#">Dhotis</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 2: Bottomwear & Innerwear -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Bottomwear</h5>
+<ul>
+<li><a href="#">Jeans</a></li>
+<li><a href="#">Casual Trousers</a></li>
+<li><a href="#">Formal Trousers</a></li>
+<li><a href="#">Shorts</a></li>
+<li><a href="#">Track Pants &amp; Joggers</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Innerwear &amp; Sleepwear</h5>
+<ul>
+<li><a href="#">Briefs &amp; Trunks</a></li>
+<li><a href="#">Boxers</a></li>
+<li><a href="#">Vests</a></li>
+<li><a href="#">Sleepwear &amp; Loungewear</a></li>
+<li><a href="#">Thermals</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Plus Size</h5>
+</div>
+</div>
+<!-- Col 3: Footwear -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Footwear</h5>
+<ul>
+<li><a href="#">Casual Shoes</a></li>
+<li><a href="#">Sports Shoes</a></li>
+<li><a href="#">Formal Shoes</a></li>
+<li><a href="#">Sneakers</a></li>
+<li><a href="#">Sandals &amp; Floaters</a></li>
+<li><a href="#">Flip Flops</a></li>
+<li><a href="#">Socks</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Personal Care &amp; Grooming</h5>
+</div>
+<div class="dropdown-col-section">
+<h5>Sunglasses &amp; Frames</h5>
+</div>
+<div class="dropdown-col-section">
+<h5>Watches</h5>
+</div>
+</div>
+<!-- Col 4: Sports & Gadgets -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Sports &amp; Active Wear</h5>
+<ul>
+<li><a href="#">Sports Shoes</a></li>
+<li><a href="#">Sports Sandals</a></li>
+<li><a href="#">Active T-Shirts</a></li>
+<li><a href="#">Track Pants &amp; Shorts</a></li>
+<li><a href="#">Tracksuits</a></li>
+<li><a href="#">Jackets &amp; Sweatshirts</a></li>
+<li><a href="#">Sports Accessories</a></li>
+<li><a href="#">Swimwear</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Gadgets</h5>
+<ul>
+<li><a href="#">Smart Wearables</a></li>
+<li><a href="#">Fitness Gadgets</a></li>
+<li><a href="#">Headphones</a></li>
+<li><a href="#">Speakers</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 5: Accessories & Bags -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Fashion Accessories</h5>
+<ul>
+<li><a href="#">Wallets</a></li>
+<li><a href="#">Belts</a></li>
+<li><a href="#">Perfumes &amp; Body Mists</a></li>
+<li><a href="#">Trimmers</a></li>
+<li><a href="#">Deodorants</a></li>
+<li><a href="#">Ties, Cufflinks &amp; Pocket Squares</a></li>
+<li><a href="#">Accessory Gift Sets</a></li>
+<li><a href="#">Caps &amp; Hats</a></li>
+<li><a href="#">Mufflers, Scarves &amp; Gloves</a></li>
+<li><a href="#">Phone Cases</a></li>
+<li><a href="#">Rings &amp; Wristwear</a></li>
+<li><a href="#">Helmets</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Bags &amp; Backpacks</h5>
+</div>
+<div class="dropdown-col-section">
+<h5>Luggages &amp; Trolleys</h5>
+</div>
+</div>
+</div>
+</div>
+<!-- WOMEN -->
+<div class="nav-link women">
+<a href="#">Women</a>
+<div class="dropdown-menu">
+<!-- Col 1: Indian & Fusion -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Indian &amp; Fusion Wear</h5>
+<ul>
+<li><a href="#">Kurtas &amp; Suits</a></li>
+<li><a href="#">Kurtis, Tunics &amp; Tops</a></li>
+<li><a href="#">Sarees</a></li>
+<li><a href="#">Ethnic Wear Sets</a></li>
+<li><a href="#">Lehengas &amp; Cholis</a></li>
+<li><a href="#">Salwars, Leggings &amp; Palazzos</a></li>
+<li><a href="#">Ethnic Shrugs &amp; Jackets</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 2: Western Wear -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Western Wear</h5>
+<ul>
+<li><a href="#">Dresses &amp; Jumpsuits</a></li>
+<li><a href="#">Tops, T-Shirts &amp; Shirts</a></li>
+<li><a href="#">Jeans &amp; Jeggings</a></li>
+<li><a href="#">Trousers &amp; Capris</a></li>
+<li><a href="#">Shorts &amp; Skirts</a></li>
+<li><a href="#">Shrugs &amp; Cardigans</a></li>
+<li><a href="#">Blazers &amp; Waistcoats</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 3: Footwear & Lingerie -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Footwear</h5>
+<ul>
+<li><a href="#">Flats &amp; Gladiators</a></li>
+<li><a href="#">Heels</a></li>
+<li><a href="#">Sneakers &amp; Casual Shoes</a></li>
+<li><a href="#">Sports Shoes &amp; Brogues</a></li>
+<li><a href="#">Wedges</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Lingerie &amp; Sleepwear</h5>
+<ul>
+<li><a href="#">Bras &amp; Briefs</a></li>
+<li><a href="#">Shapewear</a></li>
+<li><a href="#">Sleepwear &amp; Loungewear</a></li>
+<li><a href="#">Camisoles</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 4: Beauty & Gadgets -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Beauty &amp; Personal Care</h5>
+<ul>
+<li><a href="#">Makeup Cosmetics</a></li>
+<li><a href="#">Skincare Products</a></li>
+<li><a href="#">Haircare Gels &amp; Oils</a></li>
+<li><a href="#">Fragrances &amp; Body Mists</a></li>
+<li><a href="#">Tools &amp; Accessories</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Gadgets</h5>
+<ul>
+<li><a href="#">Smart Wearables</a></li>
+<li><a href="#">Fitness Bands</a></li>
+<li><a href="#">Headphones</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 5: Accessories & Bags -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Fashion Accessories</h5>
+<ul>
+<li><a href="#">Wallets &amp; Clutches</a></li>
+<li><a href="#">Handbags &amp; Slingbags</a></li>
+<li><a href="#">Jewellery &amp; Watches</a></li>
+<li><a href="#">Hair Accessories</a></li>
+<li><a href="#">Sunglasses &amp; Frames</a></li>
+<li><a href="#">Scarves &amp; Stoles</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- KIDS -->
+<div class="nav-link kids">
+<a href="#">Kids</a>
+<div class="dropdown-menu">
+<!-- Col 1: Boys Clothing -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Boys Clothing</h5>
+<ul>
+<li><a href="#">T-Shirts &amp; Shirts</a></li>
+<li><a href="#">Shorts &amp; Jeans</a></li>
+<li><a href="#">Trousers &amp; Track Pants</a></li>
+<li><a href="#">Clothing Sets</a></li>
+<li><a href="#">Ethnic Wear</a></li>
+<li><a href="#">Sweaters, Hoodies &amp; Jackets</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 2: Girls Clothing -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Girls Clothing</h5>
+<ul>
+<li><a href="#">Dresses &amp; Frocks</a></li>
+<li><a href="#">Tops &amp; T-Shirts</a></li>
+<li><a href="#">Clothing Sets</a></li>
+<li><a href="#">Shorts, Skirts &amp; Jumpsuits</a></li>
+<li><a href="#">Jeans &amp; Trousers</a></li>
+<li><a href="#">Ethnic Wear</a></li>
+<li><a href="#">Sweaters, Hoodies &amp; Jackets</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 3: Infants & Toddlers -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Infants &amp; Toddlers</h5>
+<ul>
+<li><a href="#">Rompers &amp; Sleepsuits</a></li>
+<li><a href="#">Clothing Sets</a></li>
+<li><a href="#">Innerwear &amp; Socks</a></li>
+<li><a href="#">T-Shirts &amp; Dresses</a></li>
+<li><a href="#">Booties &amp; Soft Shoes</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 4: Kids Footwear -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Kids Footwear</h5>
+<ul>
+<li><a href="#">Casual Shoes</a></li>
+<li><a href="#">Sports Shoes</a></li>
+<li><a href="#">Sneakers</a></li>
+<li><a href="#">Sandals &amp; Floaters</a></li>
+<li><a href="#">Flip Flops</a></li>
+<li><a href="#">School Shoes</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 5: Kids Accessories -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Kids Accessories</h5>
+<ul>
+<li><a href="#">Backpacks &amp; School Bags</a></li>
+<li><a href="#">Sunglasses &amp; Frames</a></li>
+<li><a href="#">Hair Accessories</a></li>
+<li><a href="#">Caps &amp; Hats</a></li>
+<li><a href="#">Watches</a></li>
+<li><a href="#">Toys &amp; Board Games</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- HOME & LIVING -->
+<div class="nav-link home">
+<a href="#">Home &amp; Living</a>
+<div class="dropdown-menu">
+<!-- Col 1: Bedding -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Bed Linen &amp; Furnishing</h5>
+<ul>
+<li><a href="#">Bedsheets</a></li>
+<li><a href="#">Bedcovers &amp; Sets</a></li>
+<li><a href="#">Blankets, Quilts &amp; Dohars</a></li>
+<li><a href="#">Pillows &amp; Pillow Covers</a></li>
+<li><a href="#">Curtains &amp; Drapes</a></li>
+<li><a href="#">Mats, Carpets &amp; Rugs</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 2: Bath Linen -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Bath Linen</h5>
+<ul>
+<li><a href="#">Bath Towels</a></li>
+<li><a href="#">Hand &amp; Face Towels</a></li>
+<li><a href="#">Bath Rugs</a></li>
+<li><a href="#">Shower Curtains</a></li>
+<li><a href="#">Bathrobes</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 3: Home Decor -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Home Decor</h5>
+<ul>
+<li><a href="#">Clocks</a></li>
+<li><a href="#">Wall Art &amp; Paintings</a></li>
+<li><a href="#">Vases &amp; Artificial Flowers</a></li>
+<li><a href="#">Mirrors</a></li>
+<li><a href="#">Candles &amp; Holders</a></li>
+<li><a href="#">Festive Lights &amp; Decor</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 4: Kitchen & Dining -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Kitchen &amp; Dining</h5>
+<ul>
+<li><a href="#">Cookware &amp; Bakeware</a></li>
+<li><a href="#">Dinnerware &amp; Plates</a></li>
+<li><a href="#">Cups &amp; Coffee Mugs</a></li>
+<li><a href="#">Kitchen Storage &amp; Organisers</a></li>
+<li><a href="#">Table Linen &amp; Runners</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 5: Appliances & Organisers -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Home Appliances</h5>
+<ul>
+<li><a href="#">Air Purifiers</a></li>
+<li><a href="#">Steam Irons</a></li>
+<li><a href="#">Vacuum Cleaners</a></li>
+</ul>
+</div>
+<div class="dropdown-col-section">
+<h5>Organisers</h5>
+<ul>
+<li><a href="#">Storage Baskets</a></li>
+<li><a href="#">Shoe Racks</a></li>
+<li><a href="#">Hangers &amp; Pegs</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- BEAUTY -->
+<div class="nav-link beauty">
+<a href="#">Beauty</a>
+<div class="dropdown-menu">
+<!-- Col 1: Makeup -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Makeup</h5>
+<ul>
+<li><a href="#">Lipstick &amp; Lip Gloss</a></li>
+<li><a href="#">Eyeliner &amp; Kajal</a></li>
+<li><a href="#">Mascara</a></li>
+<li><a href="#">Foundation &amp; Concealer</a></li>
+<li><a href="#">Compact &amp; Powder</a></li>
+<li><a href="#">Eyeshadow &amp; Palettes</a></li>
+<li><a href="#">Makeup Brushes &amp; Blenders</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 2: Skincare -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Skincare</h5>
+<ul>
+<li><a href="#">Face Wash &amp; Cleanser</a></li>
+<li><a href="#">Moisturiser &amp; Cream</a></li>
+<li><a href="#">Sunscreen &amp; Gel</a></li>
+<li><a href="#">Serums &amp; Essences</a></li>
+<li><a href="#">Face Masks &amp; Peels</a></li>
+<li><a href="#">Lip Balm &amp; Treatment</a></li>
+<li><a href="#">Eye Creams</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 3: Haircare -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Haircare</h5>
+<ul>
+<li><a href="#">Shampoos</a></li>
+<li><a href="#">Conditioners</a></li>
+<li><a href="#">Hair Oils</a></li>
+<li><a href="#">Hair Serums &amp; Gels</a></li>
+<li><a href="#">Hair Colors</a></li>
+<li><a href="#">Hair Styling Creams</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 4: Fragrances -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Fragrances</h5>
+<ul>
+<li><a href="#">Perfumes (EDP/EDT)</a></li>
+<li><a href="#">Colognes (EDC)</a></li>
+<li><a href="#">Deodorants &amp; Roll-ons</a></li>
+<li><a href="#">Body Mists &amp; Sprays</a></li>
+<li><a href="#">Pocket Perfumes</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 5: Grooming Tools -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Grooming &amp; Hygiene</h5>
+<ul>
+<li><a href="#">Body Wash &amp; Shower Gels</a></li>
+<li><a href="#">Body Lotions &amp; Oils</a></li>
+<li><a href="#">Hair Trimmers &amp; Clippers</a></li>
+<li><a href="#">Shavers &amp; Razors</a></li>
+<li><a href="#">Epilators &amp; Groomers</a></li>
+<li><a href="#">Hand Sanitizers &amp; Soaps</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- GENZ -->
+<div class="nav-link genz">
+<a href="#">Genz</a>
+<div class="dropdown-menu">
+<!-- Col 1: Y2K & Vintage -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Y2K &amp; Vintage</h5>
+<ul>
+<li><a href="#">Cargo Pants</a></li>
+<li><a href="#">Baggy Jeans</a></li>
+<li><a href="#">Oversized Tees</a></li>
+<li><a href="#">Retro Denim Jackets</a></li>
+<li><a href="#">Varsity Jackets</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 2: Streetwear -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Streetwear &amp; Hype</h5>
+<ul>
+<li><a href="#">Graphic Hoodies</a></li>
+<li><a href="#">Parachute Joggers</a></li>
+<li><a href="#">Utility Vests</a></li>
+<li><a href="#">Graphic Printed Tees</a></li>
+<li><a href="#">Bomber Jackets</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 3: Cyberpunk -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Cyberpunk &amp; Techwear</h5>
+<ul>
+<li><a href="#">Reflective Windbreakers</a></li>
+<li><a href="#">Multi-Pocket Cargos</a></li>
+<li><a href="#">Tactical Belts</a></li>
+<li><a href="#">Technical Hooded Pullovers</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 4: Footwear -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>GenZ Footwear</h5>
+<ul>
+<li><a href="#">Chunky Sneakers</a></li>
+<li><a href="#">Platform High Boots</a></li>
+<li><a href="#">Sporty Slides</a></li>
+<li><a href="#">Retro Running Kicks</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 5: Accessories -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>GenZ Accessories</h5>
+<ul>
+<li><a href="#">Bucket Hats</a></li>
+<li><a href="#">Tinted Retro Glasses</a></li>
+<li><a href="#">Eco Canvas Totes</a></li>
+<li><a href="#">Layered Silver Chains</a></li>
+<li><a href="#">Phone Beaded Charms</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- STUDIO -->
+<div class="nav-link studio">
+<a href="#">Studio <sup>New</sup></a>
+<div class="dropdown-menu">
+<!-- Col 1: Influencer Edits -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Influencer Edits</h5>
+<ul>
+<li><a href="#">Celebrity Looks</a></li>
+<li><a href="#">Creator Recommendations</a></li>
+<li><a href="#">Festival Styling Guides</a></li>
+<li><a href="#">Minimalist Capsule Wardrobes</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 2: Trend Alert -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Trend Alert</h5>
+<ul>
+<li><a href="#">Dreamy Pastel Palettes</a></li>
+<li><a href="#">Crochet Textures</a></li>
+<li><a href="#">High-Contrast Monochrome</a></li>
+<li><a href="#">Faux Leather Luxe</a></li>
+<li><a href="#">Glossy Satin Silhouettes</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 3: Exclusive Brands -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Exclusive Brands</h5>
+<ul>
+<li><a href="#">Studio Premium Select</a></li>
+<li><a href="#">Curated Imports</a></li>
+<li><a href="#">Indie Designer Drops</a></li>
+<li><a href="#">Sustainably Crafted Wear</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 4: Style Feed -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Style Feed</h5>
+<ul>
+<li><a href="#">Newly Unveiled Lines</a></li>
+<li><a href="#">Launch &amp; Release Calendars</a></li>
+<li><a href="#">How-To Style Video Feeds</a></li>
+<li><a href="#">Capsule Collection Essentials</a></li>
+</ul>
+</div>
+</div>
+<!-- Col 5: Studio Accessories -->
+<div class="dropdown-col">
+<div class="dropdown-col-section">
+<h5>Studio Accessories</h5>
+<ul>
+<li><a href="#">Artisanal Timepieces</a></li>
+<li><a href="#">Oversized Frames</a></li>
+<li><a href="#">Designer Shoulder Purses</a></li>
+<li><a href="#">Dainty Metal Jewelry</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<!-- Search Inputs -->
+<div class="search-container" id="search_container">
+<span class="search-icon-svg">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" x2="16.65" y1="21" y2="16.65"></line>
+</svg>
+</span>
+<input class="search-input" id="search_query" placeholder="Search for products, brands and more"/>
+</div>
+<!-- Actions Bar icons -->
+<div class="actions">
+<!-- Light / Dark Switch Button -->
+<button class="theme-switch" id="theme_toggle" title="Toggle Light/Dark Theme">
+<!-- Moon Icon (Dark Mode switcher) -->
+<svg class="moon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+<!-- Sun Icon (Light Mode switcher) -->
+<svg class="sun-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="5"></circle>
+<line x1="12" x2="12" y1="1" y2="3"></line>
+<line x1="12" x2="12" y1="21" y2="23"></line>
+<line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line>
+<line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line>
+<line x1="1" x2="3" y1="12" y2="12"></line>
+<line x1="21" x2="23" y1="12" y2="12"></line>
+</svg>
+</button>
+<!-- Profile Actions -->
+<div class="action-btn profile">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+<circle cx="12" cy="7" r="4"></circle>
+</svg>
+<span>Profile</span>
+<!-- Hover dropdown menu for Profile -->
+<div class="profile-dropdown">
+<div class="profile-welcome">
+<p>Manage your account, orders and payments</p>
+<button class="login-btn" id="open_login_btn">LOGIN / SIGNUP</button>
+</div>
+<div class="profile-links">
+<a href="#">Orders</a>
+<a href="#">Wishlist</a>
+<a href="#">Gift Cards</a>
+<a href="#">Contact Us</a>
+</div>
+</div>
+</div>
+<!-- Wishlist Action -->
+<button class="action-btn wishlist" id="wishlist_action_btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+<span class="badge" id="wishlist_badge">0</span>
+<span>Wishlist</span>
+</button>
+<!-- Shopping Bag Action -->
+<button class="action-btn bag" id="cart_action_btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+<line x1="3" x2="21" y1="6" y2="6"></line>
+<path d="M16 10a4 4 0 0 1-8 0"></path>
+</svg>
+<span class="badge" id="cart_badge">0</span>
+<span>Bag</span>
+</button>
+</div>
+</div>
+</header>
+<!-- ==========================================
+         MAIN AREA
+         ========================================== -->
+<main>
+<!-- Hero Banner Slider -->
+<section class="slider">
+<div class="slides-wrapper" id="carousel_container">
+<!-- Slide 1: Festive Offer -->
+<div class="slide slide1">
+<div class="slide-content">
+<span style="font-size:12px; text-transform:uppercase; letter-spacing:1px; background:rgba(255,255,255,0.2); padding:4px 8px; border-radius:4px;">Grand Festive Sale</span>
+<h2 style="margin-top:10px;">CELESTIAL BEAUTY DAYS</h2>
+<p>Get Flat 50% - 80% OFF on all premium clothing brands and designer cosmetics.</p>
+<a class="slide-shop-btn" href="#deals">Shop Now</a>
+</div>
+</div>
+<!-- Slide 2: Sports Wear -->
+<div class="slide slide2">
+<div class="slide-content">
+<span style="font-size:12px; text-transform:uppercase; letter-spacing:1px; background:rgba(255,255,255,0.2); padding:4px 8px; border-radius:4px;">Summer Collection</span>
+<h2 style="margin-top:10px;">ACTIVE SPORT SEASON</h2>
+<p>Up to 60% OFF on active sportswear, fitness bands, and running sneakers.</p>
+<a class="slide-shop-btn" href="#deals">Explore Sports</a>
+</div>
+</div>
+<!-- Slide 3: Voucher Code -->
+<div class="slide slide3">
+<div class="slide-content">
+<span style="font-size:12px; text-transform:uppercase; letter-spacing:1px; background:rgba(255,255,255,0.2); padding:4px 8px; border-radius:4px;">Voucher Coupon</span>
+<h2 style="margin-top:10px;">FLAT Rs. 400 OFF</h2>
+<p>Enjoy coupon savings on your first purchase! Use coupon code: MYNTRA400.</p>
+<a class="slide-shop-btn" href="#deals">Claim Now</a>
+</div>
+</div>
+</div>
+<!-- Slide Control arrows -->
+<button class="slider-arrow arrow-prev" id="prev_slide">&lt;</button>
+<button class="slider-arrow arrow-next" id="next_slide">&gt;</button>
+<!-- Dots indicator -->
+<div class="slider-dots" id="carousel_dots">
+<span class="slider-dot active" data-index="0"></span>
+<span class="slider-dot" data-index="1"></span>
+<span class="slider-dot" data-index="2"></span>
+</div>
+</section>
+<!-- Categories Circle badges -->
+<section>
+<h3 class="section-header">Shop by Category</h3>
+<div class="categories-container">
+<!-- Men Category -->
+<div class="category-circle" onclick="filterCategory('men')">
+<div class="circle-img">
+<img alt="Men" src="images/cat_men.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"/>
+</div>
+<p>Men</p>
+</div>
+<!-- Women Category -->
+<div class="category-circle" onclick="filterCategory('women')">
+<div class="circle-img">
+<img alt="Women" src="images/cat_women.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"/>
+</div>
+<p>Women</p>
+</div>
+<!-- Kids Category -->
+<div class="category-circle" onclick="filterCategory('kids')">
+<div class="circle-img">
+<img alt="Kids" src="images/cat_kids.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"/>
+</div>
+<p>Kids</p>
+</div>
+<!-- Home Category -->
+<div class="category-circle" onclick="filterCategory('home')">
+<div class="circle-img">
+<img alt="Home" src="images/cat_home.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"/>
+</div>
+<p>Home</p>
+</div>
+<!-- Beauty Category -->
+<div class="category-circle" onclick="filterCategory('beauty')">
+<div class="circle-img">
+<img alt="Beauty" src="images/cat_beauty.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"/>
+</div>
+<p>Beauty</p>
+</div>
+<!-- Gadgets Category -->
+<div class="category-circle" onclick="filterCategory('gadgets')">
+<div class="circle-img">
+<img alt="Gadgets" src="images/cat_gadgets.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"/>
+</div>
+<p>Gadgets</p>
+</div>
+</div>
+</section>
+<!-- Product Cards list -->
+<section id="deals">
+<h3 class="section-header">Deals of the Day</h3>
+<!-- Category Tabs filters -->
+<div class="tabs">
+<button class="tab active" onclick="tabFilter('all')">All Deals</button>
+<button class="tab" onclick="tabFilter('men')">Men</button>
+<button class="tab" onclick="tabFilter('women')">Women</button>
+<button class="tab" onclick="tabFilter('beauty')">Beauty</button>
+<button class="tab" onclick="tabFilter('gadgets')">Gadgets</button>
+</div>
+<!-- Products listing Grid -->
+<div class="product-grid" id="products_grid">
+<!-- Card 1: Crop Tops -->
+<div class="product-card fwd-card" data-category="women" data-id="p1">
+<div class="product-image">
+<img alt="Crop Tops" class="fwd-image" src="images/fwd_crop_top.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Crop Tops</span>
+<span class="fwd-price">UNDER ₹299</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">ZARA</div>
+<div class="item-name">Trendy Pink Crop Top</div>
+<div class="price-row">
+<span class="price-now">₹299</span>
+<span class="price-was">₹599</span>
+<span class="price-off">(50% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 2: Denim Jackets -->
+<div class="product-card fwd-card" data-category="women" data-id="p2">
+<div class="product-image">
+<img alt="Denim Jackets" class="fwd-image" src="images/fwd_denim_jacket.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Denim Jackets</span>
+<span class="fwd-price">UNDER ₹999</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">VAN HEUSEN</div>
+<div class="item-name">Classic Light Blue Denim Jacket</div>
+<div class="price-row">
+<span class="price-now">₹999</span>
+<span class="price-was">₹1999</span>
+<span class="price-off">(50% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 3: Flared Dresses -->
+<div class="product-card fwd-card" data-category="women" data-id="p3">
+<div class="product-image">
+<img alt="Flared Dresses" class="fwd-image" src="images/fwd_flared_dress.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Flared Dresses</span>
+<span class="fwd-price">UNDER ₹599</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">HNM</div>
+<div class="item-name">Floral Print Flared Summer Dress</div>
+<div class="price-row">
+<span class="price-now">₹599</span>
+<span class="price-was">₹1299</span>
+<span class="price-off">(54% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 4: Gold Plated Jewellery -->
+<div class="product-card fwd-card" data-category="beauty" data-id="p4">
+<div class="product-image">
+<img alt="Gold Plated Jewellery" class="fwd-image" src="images/fwd_jewellery.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Gold Jewellery</span>
+<span class="fwd-price">UNDER ₹299</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">TANISHQ</div>
+<div class="item-name">Gold Plated Floral Chain Necklace</div>
+<div class="price-row">
+<span class="price-now">₹299</span>
+<span class="price-was">₹699</span>
+<span class="price-off">(57% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 5: Mini Skirts -->
+<div class="product-card fwd-card" data-category="women" data-id="p5">
+<div class="product-image">
+<img alt="Mini Skirts" class="fwd-image" src="images/fwd_mini_skirt.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Mini Skirts</span>
+<span class="fwd-price">UNDER ₹599</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">ZARA</div>
+<div class="item-name">Pleated Pink Casual Mini Skirt</div>
+<div class="price-row">
+<span class="price-now">₹599</span>
+<span class="price-was">₹1199</span>
+<span class="price-off">(50% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 6: Oversized Tees -->
+<div class="product-card fwd-card" data-category="men" data-id="p6">
+<div class="product-image">
+<img alt="Oversized Tees" class="fwd-image" src="images/fwd_oversized_tee.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Oversized Tees</span>
+<span class="fwd-price">UNDER ₹299</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">URBAN MONKEY</div>
+<div class="item-name">Washed Cotton Oversized Tee</div>
+<div class="price-row">
+<span class="price-now">₹299</span>
+<span class="price-was">₹699</span>
+<span class="price-off">(57% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 7: Resort Shirts -->
+<div class="product-card fwd-card" data-category="men" data-id="p7">
+<div class="product-image">
+<img alt="Resort Shirts" class="fwd-image" src="images/fwd_resort_shirt.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Resort Shirts</span>
+<span class="fwd-price">UNDER ₹599</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">Mast &amp; Harbour</div>
+<div class="item-name">Camp-Collar Floral Resort Shirt</div>
+<div class="price-row">
+<span class="price-now">₹599</span>
+<span class="price-was">₹1199</span>
+<span class="price-off">(50% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 8: Short Kurtis -->
+<div class="product-card fwd-card" data-category="women" data-id="p8">
+<div class="product-image">
+<img alt="Short Kurtis" class="fwd-image" src="images/fwd_short_kurti.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Short Kurtis</span>
+<span class="fwd-price">UNDER ₹599</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">ANORA</div>
+<div class="item-name">Dark Blue Printed Short Kurti</div>
+<div class="price-row">
+<span class="price-now">₹599</span>
+<span class="price-was">₹1299</span>
+<span class="price-off">(54% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 9: Sling Bags -->
+<div class="product-card fwd-card" data-category="women" data-id="p9">
+<div class="product-image">
+<img alt="Sling Bags" class="fwd-image" src="images/fwd_sling_bag.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Sling Bags</span>
+<span class="fwd-price">UNDER ₹599</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">LAVIE</div>
+<div class="item-name">Glossy Textured Crocodile Sling Bag</div>
+<div class="price-row">
+<span class="price-now">₹599</span>
+<span class="price-was">₹1299</span>
+<span class="price-off">(54% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 10: White Sneakers -->
+<div class="product-card fwd-card" data-category="men" data-id="p10">
+<div class="product-image">
+<img alt="White Sneakers" class="fwd-image" src="images/fwd_sneakers.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">White Sneakers</span>
+<span class="fwd-price">UNDER ₹999</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">REDTAPE</div>
+<div class="item-name">Sporty Classic White Sneakers</div>
+<div class="price-row">
+<span class="price-now">₹999</span>
+<span class="price-was">₹1999</span>
+<span class="price-off">(50% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 11: Smart Watch -->
+<div class="product-card fwd-card" data-category="gadgets" data-id="p11">
+<div class="product-image">
+<img alt="Smart Watch" class="fwd-image" src="images/fwd_smartwatch.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Smart Watch</span>
+<span class="fwd-price">UNDER ₹1999</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">NOISE</div>
+<div class="item-name">Smartwatch with Heart Rate Monitor</div>
+<div class="price-row">
+<span class="price-now">₹1999</span>
+<span class="price-was">₹4999</span>
+<span class="price-off">(60% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 12: Bluetooth Headphones -->
+<div class="product-card fwd-card" data-category="gadgets" data-id="p12">
+<div class="product-image">
+<img alt="Bluetooth Headphones" class="fwd-image" src="images/fwd_headphones.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Headphones</span>
+<span class="fwd-price">UNDER ₹1499</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">bOAT ROCKERZ 550</div>
+<div class="item-name">Over-Ear Wireless Bluetooth Headphones</div>
+<div class="price-row">
+<span class="price-now">₹1499</span>
+<span class="price-was">₹2999</span>
+<span class="price-off">(50% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 13: Wireless Earbuds -->
+<div class="product-card fwd-card" data-category="gadgets" data-id="p13">
+<div class="product-image">
+<img alt="Wireless Earbuds" class="fwd-image" src="images/fwd_earbuds.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Wireless Earbuds</span>
+<span class="fwd-price">UNDER ₹999</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">bOAT 191</div>
+<div class="item-name">True Wireless Earbuds with Touch Controls</div>
+<div class="price-row">
+<span class="price-now">₹999</span>
+<span class="price-was">₹2499</span>
+<span class="price-off">(60% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 14: Fitness Band -->
+<div class="product-card fwd-card" data-category="gadgets" data-id="p14">
+<div class="product-image">
+<img alt="Fitness Band" class="fwd-image" src="images/fwd_fitness_band.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Fitness Band</span>
+<span class="fwd-price">UNDER ₹999</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">Fastrack</div>
+<div class="item-name">Smart Fitness Band with OLED Display</div>
+<div class="price-row">
+<span class="price-now">₹999</span>
+<span class="price-was">₹1999</span>
+<span class="price-off">(50% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+<!-- Card 15: Bluetooth Speaker -->
+<div class="product-card fwd-card" data-category="gadgets" data-id="p15">
+<div class="product-image">
+<img alt="Bluetooth Speaker" class="fwd-image" src="images/fwd_speaker.png"/>
+<button class="card-wishlist-btn" title="Add to Wishlist">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+</button>
+<div class="fwd-banner-overlay">
+<span class="fwd-title">Bluetooth Speaker</span>
+<span class="fwd-price">UNDER ₹1199</span>
+</div>
+</div>
+<div class="product-details">
+<div class="brand-name">JBL</div>
+<div class="item-name">Portable Waterproof Bluetooth Speaker</div>
+<div class="price-row">
+<span class="price-now">₹1199</span>
+<span class="price-was">₹2999</span>
+<span class="price-off">(60% OFF)</span>
+</div>
+</div>
+<div class="quick-add">
+<button class="add-btn">Add to Bag</button>
+</div></div>
+</div>
+</section>
+<!-- Company Guarantee Features -->
+<section class="policies">
+<div class="policy-card">
+<div class="policy-icon">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</div>
+<div class="policy-text">
+<h5>100% Original</h5>
+<p>All items sourced directly from brands.</p>
+</div>
+</div>
+<div class="policy-card">
+<div class="policy-icon">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+</svg>
+</div>
+<div class="policy-text">
+<h5>14 Days Return</h5>
+<p>Easy returns and size exchange policies.</p>
+</div>
+</div>
+<div class="policy-card">
+<div class="policy-icon">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<rect height="13" width="15" x="1" y="3"></rect>
+<circle cx="5.5" cy="18.5" r="2.5"></circle>
+<circle cx="18.5" cy="18.5" r="2.5"></circle>
+</svg>
+</div>
+<div class="policy-text">
+<h5>Free Delivery</h5>
+<p>Free shipping on orders above Rs. 499.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- ==========================================
+         SLIDE OUT CART PANEL (BAG)
+         ========================================== -->
+<div class="cart-drawer-overlay" id="cart_overlay">
+<div class="cart-drawer">
+<!-- Header panel -->
+<div class="cart-header">
+<h4>Shopping Bag (<span id="cart_qty_header">0</span>)</h4>
+<button class="cart-close-btn" id="close_cart_btn">×</button>
+</div>
+<!-- Items scroll section -->
+<div class="cart-content" id="cart_body">
+<!-- Cart Empty State Message -->
+<div class="cart-empty-message" id="cart_empty_view">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="9" cy="21" r="1"></circle>
+<circle cx="20" cy="21" r="1"></circle>
+<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+</svg>
+<h5 style="font-size:14px; margin-bottom:5px; color:var(--text-dark);">Your Shopping Bag is empty!</h5>
+<p style="font-size:12px; margin-bottom:15px;">Add top deals from our items list to fill it up.</p>
+<button class="checkout-btn" id="empty_shop_btn" style="width:auto; padding:8px 20px;">Shop Now</button>
+</div>
+<!-- Generated Cart Items -->
+<div id="cart_items_list" style="display: none;">
+<!-- Append via script -->
+</div>
+</div>
+<!-- Price Check Summary Panel -->
+<div class="cart-footer" id="cart_footer" style="display: none;">
+<div class="summary-row">
+<span>Bag Total</span>
+<span id="summary_bag_total">₹0</span>
+</div>
+<div class="summary-row discount">
+<span>Bag Discount</span>
+<span id="summary_bag_discount">-₹0</span>
+</div>
+<div class="summary-row">
+<span>Delivery Charges</span>
+<span id="summary_delivery_fee">FREE</span>
+</div>
+<div class="summary-row total">
+<span>Order Total</span>
+<span id="summary_order_total">₹0</span>
+</div>
+<button class="checkout-btn" id="checkout_action_btn">Place Order</button>
+</div>
+</div>
+</div>
+<!-- ==========================================
+         LOGIN POPUP MODAL
+         ========================================== -->
+<div class="modal-overlay" id="login_modal_overlay">
+<div class="login-modal">
+<!-- Close Modal -->
+<button class="close-modal-btn" id="close_login_btn">×</button>
+<div class="login-banner">
+<h3>Login / Signup</h3>
+</div>
+<div class="login-form-container">
+<form id="login_form" onsubmit="event.preventDefault(); alert('Logged in successfully!'); document.getElementById('login_modal_overlay').classList.remove('active');">
+<div class="input-group">
+<label for="login_email">Email or Mobile Number</label>
+<input class="form-input" id="login_email" placeholder="Enter Email / Mobile" required="" type="text"/>
+</div>
+<div class="input-group">
+<label for="login_password">Password</label>
+<input class="form-input" id="login_password" placeholder="Enter Password" required="" type="password"/>
+</div>
+<button class="submit-login-btn" type="submit">Continue</button>
+</form>
+<div class="signup-link-container">
+                    New to Myntra? <a href="auth.html?tab=signup">Create Account</a>
+</div>
+</div>
+</div>
+</div>
+<!-- ==========================================
+         FOOTER
+         ========================================== -->
+<footer>
+<div class="footer-container">
+<div class="footer-grid">
+<!-- Col 1 -->
+<div class="footer-column">
+<h4>Online Shopping</h4>
+<ul>
+<li><a href="#">Men Fashion</a></li>
+<li><a href="#">Women Apparel</a></li>
+<li><a href="#">Kids Wear</a></li>
+<li><a href="#">Home &amp; Living</a></li>
+<li><a href="#">Beauty Store</a></li>
+</ul>
+</div>
+<!-- Col 2 -->
+<div class="footer-column">
+<h4>Useful Links</h4>
+<ul>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">FAQ &amp; Help</a></li>
+<li><a href="#">Track Orders</a></li>
+<li><a href="#">Return Policy</a></li>
+</ul>
+</div>
+<!-- Col 3 -->
+<div class="footer-column">
+<h4>Customer Policies</h4>
+<ul>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Secure Shopping</a></li>
+</ul>
+</div>
+<!-- Col 4 -->
+<div class="footer-column">
+<h4>About Myntra</h4>
+<p style="font-size:12px; color:var(--text-gray); line-height: 1.5;">This page is a simplified CSS/HTML clone of the Myntra store website, built for portfolio project presentation.</p>
+</div>
+</div>
+<!-- Bottom Copyright -->
+<div class="footer-bottom">
+<p>© 2026 www.myntraclone.com. All rights reserved.</p>
+<p>Designed and Built by a Fresh Web Developer</p>
+</div>
+</div>
+</footer>
+<!-- Link to Javascript file -->
+<script src="myntra.js"></script>
+</body>
+</html>

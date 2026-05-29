@@ -379,7 +379,7 @@ function connectUIEvents() {
 
     // Profile Dropdown Login Button
     document.getElementById("open_login_btn").addEventListener("click", function() {
-        window.location.href = "auth.html";
+        window.location.href = "login/login.html";
     });
 
     // Close Login Modal

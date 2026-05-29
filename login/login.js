@@ -224,7 +224,7 @@ function initFormHandlers() {
                 showToast("Logged in successfully! Redirecting...", "success");
                 
                 setTimeout(function() {
-                    window.location.href = "myntraclone.html";
+                    window.location.href = "../index.html";
                 }, 1200);
             } else {
                 showToast("Invalid credentials. Try guest@myntraclone.com / guest1", "error");
@@ -346,7 +346,7 @@ function initFormHandlers() {
             showToast("Registration successful! Logging you in...", "success");
 
             setTimeout(function() {
-                window.location.href = "myntraclone.html";
+                window.location.href = "../index.html";
             }, 1200);
 
         }, 1200);
@@ -440,7 +440,7 @@ function triggerSocialAuth(platform) {
         showToast("Connected via " + platform + "! Welcome, " + mockUser.name + ".", "success");
 
         setTimeout(function() {
-            window.location.href = "myntraclone.html";
+            window.location.href = "../index.html";
         }, 1200);
     }, 1200);
 }
